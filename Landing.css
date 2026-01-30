@@ -1,0 +1,24 @@
+.landing {
+    min-height: 100vh;
+    background-image: url("../assets/background.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.landing-content {
+    background-color: rgba(255, 255, 255, 0.92); /* MORE SOLID */
+    padding: 40px 50px;
+    border-radius: 8px;
+    text-align: center;
+}
+.landing-content h1 {
+    color: #5b1f1f;
+    font-weight: bold;
+}
+.landing-content h2 {
+    color: #3a1a1a;
+}

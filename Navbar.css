@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: brown;
+    padding: 10px 20px;
+position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+.nav-logo {
+    height: 45px;
+    width: auto;
+}
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.nav-right a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+.nav-right button {
+    background-color: white;
+    color: brown;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.nav-right a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 768px) {
+    .nav-right {
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+}

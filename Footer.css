@@ -1,0 +1,26 @@
+.footer-divider {
+    margin: 0;
+    border: none;
+    height: 2px;
+    background-color: rgb(14, 13, 13);
+}
+.footer {
+    background-color: brown;
+    color: rgb(255, 251, 251);
+    text-align: center;
+    padding: 20px 10px;
+}
+.footer p {
+    margin: 8px 0;
+    background-color: brown;
+}
+.footer img {
+    width: 30px;
+    height: 30px;
+    margin: 0 6px;
+}
+@media (max-width: 500px) {
+    .footer {
+        font-size: 14px;
+    }
+}

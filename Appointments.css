@@ -1,0 +1,76 @@
+.appointments{
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    line-height: 1.7;
+}
+.appointments h3{
+    text-align: center;
+    font-size: 28px;
+    color: #6b1f1f;
+    margin-bottom: 20px;
+}
+.appointments h4{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #6b1f1f;
+}
+.appointments p{
+    margin-bottom: 16px;
+    padding: 12px 16px;
+    background-color: #f9f4ef;
+    border-left: 4px solid brown;
+    border-radius: 4px;
+    color: #333;
+}
+.appointments hr{
+    margin: 30px 0;
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+}
+.appointment-form{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.appointment-form label{
+    margin: 10px 0 5px;
+    font-weight: 500;
+}
+.appointment-form input,
+.appointment-form select,
+.appointment-form textarea{
+    padding: 10px;
+    border: 1px solid #b08b5a;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.appointment-form textarea{
+    resize: vertical;
+}
+.appointment-form button{
+    margin-top: 20px;
+    align-self: flex-start;
+    background-color: brown;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.appointment-form button:hover {
+    background-color: #6b1f1f;
+}
+@media (max-width: 768px){
+    .appointments {
+        padding: 20px;
+    }
+    .appointments h3{
+        font-size: 24px;
+    }
+}
